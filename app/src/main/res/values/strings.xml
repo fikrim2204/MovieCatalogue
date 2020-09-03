@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MovieCatalogue</string>
+    <string name="tab_movies">Movies</string>
+    <string name="tab_tv_shows">TV Shows</string>
+    <string name="poster_movie">Poster of Movies</string>
+    <string name="lorem" translatable="false">Lorem ipsum dolor sit amet, vitae harum, aliquam est a mus dignissim nec tristique, non scelerisque tellus et doloribus ac, magna nulla semper quis, purus massa tincidunt mattis potenti ut. Adipiscing nec purus fermentum quis amet, mauris sit, viverra magna. Lacinia turpis et eros dolore, congue ac erat nec faucibus, taciti nunc facilisis a, vitae fermentum erat integer ante sodales, nullam pellentesque lectus. Cum a placerat pharetra quam dapibus, purus dictum nec quam aliquam hymenaeos. In libero, erat metus enim condimentum placerat nec vitae, magna volutpat cursus at morbi. Massa sit aliquam elit nulla, auctor tincidunt condimentum vestibulum vel vestibulum nonummy, nunc wisi nulla tortor commodo sit, id elit amet quis arcu quia integer, nam massa donec quis ut. Consequat accumsan a et, massa non, orci venenatis omnis nunc. Metus accumsan porta at mattis sapien integer, pharetra ante erat volutpat pede at, elit sit vitae curabitur. Malesuada scelerisque nulla felis, voluptatum dignissim dis lectus quam. Odio risus eget praesent vitae, amet neque velit semper dolor, vivamus in justo felis porttitor, eleifend urna purus. Placerat convallis enim maecenas mauris lorem, ligula quam sunt vestibulum per fames, id odio orci quia venenatis ac, ipsum qui turpis egestas viverra orci, tellus nullam sed aliquam dolor. Hac labore, ullamco dui tristique suspendisse perspiciatis dolor posuere, tincidunt pede at quisque ullamcorper amet, id justo quam morbi et bibendum.</string>
+    <string name="poster_tv_show">Photo of TV Show</string>
+    <string name="change_language_settings">Change Language</string>
+    <string name="title_of_movie">Title of Movie</string>
+    <string name="date_release">Date Release</string>
+    <string name="rating">Rating</string>
+    <string name="dump_rating" translatable="false">80%</string>
+    <string name="popularity">Popularity</string>
+    <string name="favorite">Favorite</string>
+    <string name="title_activity_favorite">Favorite</string>
+    <string name="added_favorite">Added to Favorite</string>
+    <string name="removed_favorite">Removed from Favorite</string>
+    <string name="search">Search</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">Empty</string>
+    <string name="reminder_settings">Reminder Settings</string>
+    <string name="add_some_movie_to_favorite">Add some movie to favorite</string>
+    <string name="add_some_tv_show_to_favorite">Add some tv show to favorite</string>
+    <string name="daily_reminder">Comeback to App</string>
+    <string name="release_reminder">Release Today!</string>
+    <string name="notification">Notification</string>
+    <string name="summary_daily">Turn on switch to make reminder daily at 07.00</string>
+    <string name="key_daiy">daily</string>
+    <string name="key_release">release</string>
+    <string name="summary_release">Turn on switch to make reminder release at 08.00</string>
+    <string name="title_of_daily">Reminder Daily</string>
+    <string name="title_of_release">Reminder Release</string>
+    <string name="logo_aplication">Logo aplication</string>
+
+</resources>

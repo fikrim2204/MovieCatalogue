@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.tvshow.DetailTvShowActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_photo_detail_tv_show"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="@dimen/half_image_margin"
+            android:layout_marginTop="@dimen/full_image_margin"
+            android:layout_marginEnd="@dimen/half_image_margin"
+            android:contentDescription="@string/poster_movie"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_title_detail_tv_show"
+            style="@style/TextContent.Title"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.081"
+            app:layout_constraintStart_toEndOf="@+id/img_photo_detail_tv_show"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/title_of_movie" />
+
+        <TextView
+            android:id="@+id/txt_date_release_detail_tv_show"
+            style="@style/TextContent.Field"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintStart_toStartOf="@id/txt_title_detail_tv_show"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title_detail_tv_show"
+            tools:text="@string/date_release" />
+
+        <TextView
+            android:id="@+id/txt_rating_detail_tv_show"
+            style="@style/TextContent.Field"
+            android:layout_width="wrap_content"
+            android:text="@string/rating"
+            app:layout_constraintStart_toStartOf="@id/txt_title_detail_tv_show"
+            app:layout_constraintTop_toBottomOf="@+id/txt_date_release_detail_tv_show" />
+
+        <TextView
+            android:id="@+id/txt_content_rating_detail_tv_show"
+            style="@style/TextContent.Field"
+            android:layout_width="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintStart_toEndOf="@+id/txt_rating_detail_tv_show"
+            app:layout_constraintTop_toBottomOf="@+id/txt_date_release_detail_tv_show"
+            tools:text="@string/dump_rating" />
+
+        <TextView
+            android:id="@+id/txt_description_detail_tv_show"
+            style="@style/TextDescription"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_photo_detail_tv_show"
+            tools:text="@string/lorem" />
+
+        <TextView
+            android:id="@+id/txt_popularity_detail_tv_show"
+            style="@style/TextContent.Field"
+            android:layout_width="wrap_content"
+            android:text="@string/popularity"
+            app:layout_constraintStart_toStartOf="@+id/txt_title_detail_tv_show"
+            app:layout_constraintTop_toBottomOf="@+id/txt_content_rating_detail_tv_show" />
+
+        <TextView
+            android:id="@+id/txt_content_popularity_detail_show"
+            style="@style/TextContent.Field"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintStart_toEndOf="@+id/txt_popularity_detail_tv_show"
+            app:layout_constraintTop_toBottomOf="@+id/txt_content_rating_detail_tv_show"
+            tools:text="@string/popularity" />
+
+        <TextView
+            android:id="@+id/txt_favorite_detail_show"
+            style="@style/TextContent.Field"
+            android:layout_width="0dp"
+            android:text="@string/favorite"
+            app:layout_constraintStart_toEndOf="@id/btnFavoriteTvShow"
+            app:layout_constraintTop_toBottomOf="@id/txt_content_popularity_detail_show" />
+
+        <com.github.ivbaranov.mfb.MaterialFavoriteButton
+            android:id="@+id/btnFavoriteTvShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/txt_title_detail_tv_show"
+            app:layout_constraintTop_toBottomOf="@id/txt_content_popularity_detail_show"
+            app:mfb_animate_favorite="true"
+            app:mfb_animate_unfavorite="false"
+            app:mfb_bounce_duration="300"
+            app:mfb_favorite_image="@drawable/ic_favorite_black_24dp"
+            app:mfb_not_favorite_image="@drawable/ic_favorite_border_black_24dp"
+            app:mfb_rotation_angle="360"
+            app:mfb_rotation_duration="400"
+            app:mfb_size="48"
+            app:mfb_type="star" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

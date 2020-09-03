@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MovieCatalogue</string>
+    <string name="tab_movies">Film</string>
+    <string name="tab_tv_shows">Acara TV</string>
+    <string name="poster_movie">Poster Film</string>
+    <string name="poster_tv_show">Foto Acara TV</string>
+    <string name="change_language_settings">Ganti Bahasa</string>
+    <string name="title_of_movie">Judul Film</string>
+    <string name="date_release">Tanggal Rilis</string>
+    <string name="rating">Nilai</string>
+    <string name="popularity">Popularitas</string>
+    <string name="favorite">Favorit</string>
+    <string name="title_activity_favorite">Favorit</string>
+    <string name="added_favorite">Ditambahkan ke Favorit</string>
+    <string name="removed_favorite">Dihapus dari Favorit</string>
+    <string name="search">Cari</string>
+    <string name="appwidget_text">CONTOH</string>
+    <string name="add_widget">Tambah</string>
+    <string name="empty_text">Kosong</string>
+    <string name="reminder_settings">Pengaturan Pengingat</string>
+    <string name="add_some_movie_to_favorite">Tambahkan beberapa film ke favorit</string>
+    <string name="add_some_tv_show_to_favorite">Tambahkan beberapa acara tv ke favorit</string>
+    <string name="daily_reminder">Kembalilah ke Aplikasi</string>
+    <string name="release_reminder">Rilis Hari Ini!</string>
+    <string name="notification">Pemberitahuan</string>
+    <string name="summary_daily">Nyalakan sakelar untuk membuat pengingat setiap hari pukul 07.00</string>
+    <string name="key_daiy">setiap hari</string>
+    <string name="key_release">rilis</string>
+    <string name="summary_release">Nyalakan sakelar untuk membuat pengingat rilis setiap pukul 08.00</string>
+    <string name="title_of_daily">Pengingat Harian</string>
+    <string name="title_of_release">Pengingat Rilis</string>
+    <string name="logo_aplication">Logo aplikasi</string>
+</resources>
