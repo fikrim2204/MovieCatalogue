@@ -7,5 +7,5 @@ Film and Tv Show catalog application (Submission MADE 2019 DICODING)
 - Saving Favorite Movies and Tv Show
 - Notification to New Movie Release
 
-## Licence
+### Licence
 [MIT](https://github.com/fikrim2204/MovieCatalogue/blob/master/LICENSE "Licence")
