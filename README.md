@@ -1,4 +1,11 @@
 # MovieCatalogue
-Aplikasi katalog Film dan Tv Show
+Film and Tv Show catalog application (Submission MADE 2019 DICODING)
 
-Fitur : Menampilkan informasi Film dan Tv Show, Mencari Film dan Tv Show, Menyimpan Film dan Tv Show Favorit
+## Features 
+-Displays Movie and Tv Show information 
+-Searching for Movies and Tv Show
+-Saving Favorite Movies and Tv Show
+-Notification to New Movie Release
+
+## Licence
+[MIT](https://github.com/fikrim2204/MovieCatalogue/blob/master/LICENSE "Licence")
